@@ -24,3 +24,4 @@ gr.Interface(fn=predict,inputs=gr.Image(shape=(512, 512)),
              outputs=gr.Label(num_top_classes=3),title=title,
              description=description,article=article,examples=examples).launch(
     enable_queue=enable_queue)
+gr.launch()
